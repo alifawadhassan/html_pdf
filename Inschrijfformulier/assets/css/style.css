@@ -1,0 +1,48 @@
+/*=== base css start === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+::after, ::before {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address, strong, i {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "myriadProRegular";
+  src: url(../font/MYRIADPRO-REGULAR.OTF);
+}
+body {
+  font-family: "myriadProRegular";
+}
+
+.container {
+  max-width: 797px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .w-md-50 {
+    width: 50%;
+  }
+}
+/*===// end of base css === */
+/*=== layouts css start === */
+/*===// end of layouts css === */
+/*=== components css start === */
+/*===// end of components css === *//*# sourceMappingURL=style.css.map */
